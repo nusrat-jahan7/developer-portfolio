@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Developer website</title>
+    <script src="https://kit.fontawesome.com/b92a7b4721.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="header">
@@ -14,7 +15,7 @@
           <li>Portfolio</li>
           <li>Blog</li>
         </ul>
-        <button class="btn">Hire me</button>
+        <button class="btn btn-nav">Hire me</button>
       </nav>
       <div class="banner-container">
         <div class="banner-details">
@@ -24,8 +25,8 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn">Download CV</button>
-          <button class="btn">Contact</button>
+          <button class="btn"><i class="fa-solid fa-download"></i>  Download CV</button>
+          <button class=" btn-banner"><i class="fa-solid fa-phone"></i>  Contact</button>
         </div>
         <div>
           <img class="banner-img" src="images/hardy.png" alt="" />
@@ -195,8 +196,41 @@
             </div>
           </div>
         </div>
+        <div class="download-cv">
+          <button class="btn">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-column">
+        <h3 class="sec-title">Let's Connect</h3>
+        <p class="sec-description">
+          Please fill out the form on this section to contact with me or call
+          between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+        </p>
+        <div class="social-links">
+          <a href=""><img src="images/icons/facebook.png" alt="" /></a>
+          <a href=""><img src="images/icons/twitter.png" alt="" /></a>
+          <a href=""><img src="images/icons/insta.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="sec-title">Let's Message me. Right Now.</h3>
+        <form class="contact" action="">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" name="" placeholder="Your Email" id="" />
+          <textarea
+            name=""
+            placeholder="Message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input class="btn" type="submit" value="Submit" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>

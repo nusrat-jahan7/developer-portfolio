@@ -39,6 +39,18 @@ ul li {
   margin-right: 50px;
   font-weight: bold;
 }
+.btn-nav{
+  width: 150px;
+  height:50px;
+}
+.btn-banner{
+  color: #181818;
+  border: 2px solid #fd6e0a;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #fff;
+}
 .btn {
   padding: 10px 15px;
   border: none;
@@ -49,6 +61,7 @@ ul li {
 }
 .btn:hover {
   background-color: black;
+  cursor: pointer;
 }
 .banner-container {
   margin-bottom: 20px;
@@ -166,4 +179,35 @@ main section {
 
 .resume-container hr {
   margin: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+footer {
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.social-links a{
+  margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #FFF;
+  border: 0;
+  width: 100%;
 }
